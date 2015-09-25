@@ -9,10 +9,10 @@ strict mode and support for the let keyword. The function can be changed to use 
 'use strict';
 let curry = require('./curry');
 
+//normal function whose arguments we will partially apply
 function add(a, b, c) {
     return a + b + c;
 }
-
 
 //supply all arguments
 console.log((curry(add, 3, 4, 5)));
