@@ -1,7 +1,10 @@
 # What is this?
 Currying or Partial Application is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument (partial application).
 
-### Sample usage (TODO)
+# Requirements
+strict mode and support for the let keyword. The function can be changed to use var instead of let to preserve backwards compatibility. Probably another TODO for me
+
+### Sample usage (TODO: improve)
 ```
 'use strict';
 let curry = require('./curry');
