@@ -9,7 +9,7 @@
  * @param fn represents the function whose arguments we are applying to it
  * @returns {*}
  */
-function curry(fn){
+function partiallyApply(fn){
     //represents the current function arguments minus the function itself (which is usually the first argument)
     let fnArgsNow = [];
 
@@ -50,5 +50,5 @@ function curry(fn){
     }
 }
 
-//export out the curry function
-module.exports = curry;
+//export out the partiallyApply function
+module.exports = partiallyApply;
